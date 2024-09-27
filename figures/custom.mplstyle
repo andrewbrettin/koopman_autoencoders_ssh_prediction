@@ -1,0 +1,72 @@
+### Custom mplstyle
+
+# FIGURES
+figure.titlesize : xx-large
+figure.titleweight : bold
+figure.labelsize : large
+# figure.dpi : 200
+
+# AXES
+axes.facecolor : eeeeee
+axes.edgecolor : bcbcbc
+axes.linewidth : 1
+axes.grid : True
+axes.titlesize : x-large
+axes.labelsize : large
+axes.prop_cycle : cycler('color', ['0072B2', 'A60628', '5D3A9B', '7D9A68', 'E69F00', 'B56893', '56B4E9', 'FFD700', '333333'])
+
+# LINES
+lines.linewidth : 2.0
+
+# PATCHES
+patch.linewidth : 0.5
+patch.facecolor : blue
+patch.edgecolor : eeeeee
+patch.antialiased : True
+
+# HATCHES
+hatch.linewidth : 0.5
+hatch.color : black
+
+# COLORMAP
+image.cmap : magma
+
+# BOXPLOT
+boxplot.medianprops.linewidth: 2
+boxplot.boxprops.linewidth: 1.5
+boxplot.capprops.linewidth: 1.5
+boxplot.flierprops.linewidth: 1.5
+boxplot.whiskerprops.linewidth: 1.5
+
+# TEXT
+text.hinting_factor : 8
+text.latex.preamble : "\\usepackage{amsmath} \\usepackage{amssymb}"
+mathtext.fontset : cm
+
+# FONTS
+font.family : sans-serif
+
+# GRID
+grid.color : b2b2b2
+grid.linestyle : --
+grid.linewidth : 0.5
+
+# LEGEND
+legend.fancybox : True
+
+# TICKS
+xtick.direction : out
+xtick.color : b2b2b2
+xtick.labelcolor : black
+ytick.direction : out
+ytick.color : b2b2b2
+ytick.labelcolor : black
+
+# HISTOGRAMS
+hist.bins : 20
+
+# SCATTERPLOTS
+scatter.marker : s
+
+# SAVING
+savefig.dpi: 300

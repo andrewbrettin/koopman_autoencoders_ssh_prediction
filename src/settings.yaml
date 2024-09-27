@@ -1,0 +1,42 @@
+cae_ssh:
+  C: 1
+  k: 20
+  hiddens:
+  - 64
+  - 64
+  - 32
+  - 16
+  block_size: 2
+  kernel_size: 3
+  conv_kwargs:
+    padding: same
+  lr: 1.0e-4
+  batch_size: 64
+  optimizer: Adam
+  epochs: 1000
+  early_stopping: True
+  patience: 50
+
+kae_ssh:
+  C: 1
+  k: 20
+  hiddens:
+  - 64
+  - 64
+  - 32
+  - 16
+  block_size: 2
+  kernel_size: 3
+  conv_kwargs:
+    padding: same
+  alphas:
+  - 1.0
+  - 1.0
+  - 1.0
+  lr: 1.0e-4
+  batch_size: 64
+  optimizer: Adam
+  l2: 1.0e-3
+  epochs: 500
+  early_stopping: True
+  patience: 50

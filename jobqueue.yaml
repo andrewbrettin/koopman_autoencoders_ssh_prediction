@@ -1,0 +1,23 @@
+jobqueue:
+  pbs:
+    name: dask-worker
+    # Dask worker options
+    cores: 2                    # Total number of cores per job
+    memory: '25GB'              # Total amount of memory per job
+    processes: 1                # Number of Python processes per job
+    interface: ext              # Network interface to use like eth0 or ib0
+    walltime: '01:00:00'        # Time per job
+    resource-spec: select=1:ncpus=1:mem=25GB
+    death-timeout: 60           # Number of seconds to wait if a worker can not find a scheduler
+    # PBS resource manager options
+    shebang: "#!/usr/bin/env bash"
+    queue: casper
+    account: UNYU0010
+    worker_extra_args: []
+    job_script_prologue: []
+    resource-spec: null
+    job_extra_directives: []
+    log-directory: '/glade/scratch/abrettin/dask/logs/'
+    local-directory: '/glade/scratch/abrettin/dask/'
+
+
