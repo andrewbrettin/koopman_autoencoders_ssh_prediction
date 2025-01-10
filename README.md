@@ -1,7 +1,4 @@
 # Code for "Learning Propagators for Sea Surface Height Forecasts Using Koopman Autoencoders"
-
-Preprint: https://doi.org/10.22541/essoar.172801453.37313793/v1.
-
 ---
 
 Contents:
