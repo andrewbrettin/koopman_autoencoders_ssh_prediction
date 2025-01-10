@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: “Brettin”
+  given-names: “Andrew”
+  orcid: "https://orcid.org/0000-0002-7664-6612"
+- family-names: “Zanna”
+  given-names: “Laure”
+  orcid: "https://orcid.org/0000-0002-8472-4828"
+- family-names: “Barnes”
+  given-names: “Elizabeth”
+  orcid: “https://orcid.org/0000-0003-4284-9320”
+title: “Code for ‘Learning Propagators for Sea Surface Height Forecasts Using Koopman Autoencoders’”
+version: 1.0.0
+doi: 10.5281/zenodo.14625155
+date-released: 2025-01-09
+url: "https://github.com/andrewbrettin/koopman_autoencoders_ssh_prediction"
