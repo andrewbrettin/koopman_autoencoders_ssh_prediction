@@ -1,8 +1,11 @@
 # Code for "Learning Propagators for Sea Surface Height Forecasts Using Koopman Autoencoders"
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14625155.svg)](https://doi.org/10.5281/zenodo.14625155)
----
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/andrewbrettin/koopman_autoencoders_ssh_prediction/blob/main/LICENSE.md)
 
-Contents:
+This paper contains code for [Brettin, Zanna, and Barnes (2025), Geophysical Research Letters](https://doi.org/10.1029/2024GL112835).
+
+## Contents:
 * [Repository structure](https://github.com/andrewbrettin/koopman_autoencoders_ssh_prediction/tree/master?tab=readme-ov-file#repository-structure)
 * [Package structure](https://github.com/andrewbrettin/koopman_autoencoders_ssh_prediction/tree/master?tab=readme-ov-file#package-structure)
 * [Installing packages](https://github.com/andrewbrettin/koopman_autoencoders_ssh_prediction/tree/master?tab=readme-ov-file#installing-packages)
